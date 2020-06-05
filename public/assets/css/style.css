@@ -588,6 +588,9 @@ select:-webkit-autofill:focus {
         flex-direction: column;
         z-index: 3;
     }
+    .project-title.manage-message-title{
+        display: flex;
+    }
     .project-title.project-show-title{
         display: flex;
     }
