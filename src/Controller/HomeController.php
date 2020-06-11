@@ -33,6 +33,7 @@ class HomeController extends AbstractController
         $skills = [];
         $projects = [];
 
+
         return $this->twig->render(
             'Home/index.html.twig',
             ['users' => $users, 'skills' => $skills, 'projects'=>$projects]
