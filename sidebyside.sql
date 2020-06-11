@@ -144,7 +144,7 @@ CREATE TABLE `projects` (
   `team_description` varchar(200) DEFAULT NULL,
   `project_owner_id` int NOT NULL,
   `category_id` int NOT NULL,
-  `created_at` datetime NOT NULL,	
+  `created_at` datetime NOT NULL,
   PRIMARY KEY (`id`,`project_owner_id`,`category_id`),
   KEY `fk_projets_users1_idx` (`project_owner_id`),
   KEY `fk_projets_category1_idx` (`category_id`),
@@ -608,3 +608,5 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2020-04-21  9:55:38
+
+
